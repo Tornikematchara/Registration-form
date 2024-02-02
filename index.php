@@ -8,15 +8,15 @@
 </head>
 <body>
     <form action="check.php" method="post">
-        <div>
+        <div class="input-field">
             <label for="username">სახელი:</label>
             <input type="text" id="username" name="username" required>
         </div>
-        <div>
+        <div class="input-field">
             <label for="password">პაროლი:</label>
             <input type="password" id="password" name="password" required>
         </div>
-        <div>
+        <div class="input-field">
             <label for="confirmPassword">გაიმეორეთ პაროლი:</label>
             <input type="password" id="confirmPassword" name="confirmPassword" required>
         </div>

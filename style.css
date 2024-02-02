@@ -1,7 +1,65 @@
 * { 
-    color:rgb(69, 24, 112);
-    background-color: rgb(102, 199, 166);
-    line-height: 25px;
-    margin-left: 100px;
-    margin-top: 25px;
+    margin: 0;
+    padding: 0;
+    
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 160px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 200px;
+    height: 70px;
+    border-radius: 60px;
+    margin-bottom: 20px;
+}
+
+label {
+    color: rgb(248, 0, 0);
+}
+
+input {
+    width: 300px;
+    height: 300px;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    color: rgb(248, 0, 0);
+    background-color: blue;
+}
+
+.check1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(100, 145, 130);
+}
+
+.check1 h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: goldenrod;
+    margin-bottom: 60px;
+}
+

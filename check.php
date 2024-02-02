@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<body class="check1">
 <h1>Member Status</h1>
 
 <?php
@@ -26,3 +28,4 @@
 
 
 ?>
+</body>
